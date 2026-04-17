@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YT don't scroll on fullscreen",
+  "name": "WheelLock for YouTube Fullscreen",
   "version": "1.1.0",
-  "description": "Prevents mouse-wheel scrolling from triggering YouTube fullscreen overlays while a video is fullscreen.",
+  "description": "Blocks accidental mouse-wheel input while YouTube videos are in fullscreen.",
   "homepage_url": "https://github.com/BrendanoElTaco/YT-dont-scroll-on-fullscreen",
   "icons": {
     "48": "icons/YTdSF-48.png",
@@ -17,7 +17,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "yt-dont-scroll-on-fullscreen@brendanoeltaco",
+      "id": "wheellock-youtube-fullscreen@brendanoeltaco",
       "data_collection_permissions": {
         "required": ["none"]
       }
