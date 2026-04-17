@@ -4,6 +4,10 @@ A lightweight Firefox extension that blocks accidental mouse-wheel input while Y
 
 This is especially useful if you are gaming, multitasking on a second monitor, or using your mouse wheel while a fullscreen YouTube video is open and YouTube starts showing overlays or suggested content from unintended scroll input.
 
+## Install
+
+[Get WheelLock for YouTube Fullscreen on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/wheellock-for-youtube/)
+
 ## Features
 
 - Blocks mouse-wheel input only while YouTube is in fullscreen
@@ -40,29 +44,27 @@ WheelLock for YouTube Fullscreen does not collect, store, transmit, or share any
 
 It runs locally in the browser and only on YouTube pages.
 
-## Installation
+## Temporary installation for testing
 
-### Firefox Add-ons
-
-Once published, install it from the Firefox Add-ons site.
-
-### Temporary installation for testing
-
-You can load the extension temporarily in Firefox for local testing:
+You can still load the extension temporarily in Firefox for local testing:
 
 1. Open Firefox
-2. Go to `about:debugging`
-3. Click **This Firefox**
-4. Click **Load Temporary Add-on**
-5. Select the extension's `manifest.json`
+2. Go to about:debugging
+3. Click This Firefox
+4. Click Load Temporary Add-on
+5. Select the extension's manifest.json
 
 This temporary install will be removed when Firefox restarts.
 
 ## Development
 
-### Project structure
+### Edit and test locally
 
-```text
-manifest.json
-script.js
-icons/
+1. Make your code changes
+2. Open about:debugging in Firefox
+3. Reload the temporary add-on
+4. Test on a YouTube video in fullscreen
+
+## License
+
+This project is licensed under the MIT License.
